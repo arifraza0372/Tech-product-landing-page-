@@ -1,0 +1,172 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    margin: 0 0 0 1rem;
+}
+
+header {
+    padding: 1em 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    justify-content: space-evenly;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-links a:hover {
+    color: #a19c9c;
+}
+
+.hero {
+    background: url(ten-essential-tech-products-that-are-always-a-good-investment.jpg);
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+
+.hero h2 {
+    margin-bottom: 15px;
+
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.background{
+    backdrop-filter: blur(4px);
+    width: 50%;
+    height: 11.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5%;
+    margin-left: 5px;
+
+}
+.btn {
+    background: #4b92ff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+    max-width: 800px;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+}
+
+.features .feature {
+    margin-bottom: 20px;
+}
+
+.pricing {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pricing h2 {
+    margin-bottom: 40px;
+}
+
+.pricing .price-card {
+    display: inline-block;
+    background: #fff;
+    padding: 20px;
+    margin: 0 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pricing .price-card h3 {
+    margin-top: 0;
+}
+
+.pricing .price-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pricing .price-card ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+footer form input,
+footer form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.btn:hover{
+    background: #7eb1ff;
+    transition: transform 0.3s ease-out;
+    transform: scale(1.05);
+}
